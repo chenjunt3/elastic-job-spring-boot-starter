@@ -15,8 +15,8 @@ Elastic-Job官方提供了基于Spring和Java代码2种方式的任务配置，�
 由于官方没有提供Elastic-Job的Spring Boot Starter,于是我抽时间写了一个Starter,目的当然是使用注解简化XML的配置，下面我们就来看看怎么使用吧：
 
 ## 增加elastic-job-spring-boot-starter的Maven依赖
-
-目前最新版本1.0.4
+[![](https://jitpack.io/v/chenjunt3/elastic-job-spring-boot-starter.svg)](https://jitpack.io/#chenjunt3/elastic-job-spring-boot-starter)
+目前最新版本1.0.5
 
 第一步添加仓库地址：
 ```
@@ -32,7 +32,7 @@ Elastic-Job官方提供了基于Spring和Java代码2种方式的任务配置，�
 <dependency>
 	    <groupId>com.github.yinjihuan</groupId>
 	    <artifactId>elastic-job-spring-boot-starter</artifactId>
-	    <version>1.0.4</version>
+	    <version>1.0.5</version>
 </dependency>
 ```
 
