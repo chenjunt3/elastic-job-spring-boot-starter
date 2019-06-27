@@ -34,7 +34,7 @@ public class JobController {
 	 * @param job	任务信息
 	 * @return
 	 */
-	@PostMapping("/job")
+	@PostMapping("/jobAdd")
 	public Object addJob(@RequestBody Job job) {
 		Map<String, Object> result = new HashMap<String, Object>();
 		result.put("status", true);
@@ -85,7 +85,7 @@ public class JobController {
 	 * @param jobName	任务名称
 	 * @throws Exception
 	 */
-	@GetMapping("/job/remove")
+	@GetMapping("/jobRemove")
 	public Object removeJob(String jobName) {
 		Map<String, Object> result = new HashMap<String, Object>();
 		result.put("status", true);
